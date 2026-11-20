@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a reproducible defect or unexpected behavior in a N.O.V.A.L.I.S system
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please provide clear reproduction details so we can diagnose and fix it quickly.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem Description
+      description: What happened, and what did you expect to happen?
+      placeholder: Describe the bug clearly...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Minimal sequence of steps, inputs, or commands to trigger the issue.
+      value: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime/language version, platform, or release tag.
+      placeholder: e.g., Ubuntu 24.04 / Python 3.12 / v1.0.0
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Stack Trace
+      description: Paste any relevant terminal output or error messages (redact secrets).
+      render: shell
+    validations:
+      required: false

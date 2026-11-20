@@ -1,0 +1,38 @@
+name: Feature & Architecture Proposal
+description: Propose a new capability, integration, or engineering enhancement
+title: "[Proposal]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Opportunity
+      description: What real-world problem or workflow limitation does this solve?
+      placeholder: Explain the context and motivation...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Design / Solution
+      description: Describe the desired behavior, API, or architectural approach.
+    validations:
+      required: true
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Primary Pillar
+      options:
+        - Cross-Platform & Web Apps
+        - Market Intelligence Platform
+        - Mission-Critical AI Models
+        - Core Infrastructure / DevOps
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches or tradeoffs worth noting.
+    validations:
+      required: false
