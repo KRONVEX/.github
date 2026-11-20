@@ -2,14 +2,14 @@
   <a href="https://github.com/N-O-V-A-L-I-S">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_dark.svg">
-      <img alt="N.O.V.A.L.I.S Command Banner" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
+      <img alt="NOVALIS Command Banner" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
     </picture>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/N-O-V-A-L-I-S">
-    <img src="https://img.shields.io/badge/Organization-N.O.V.A.L.I.S-090D16?style=for-the-badge&logo=github&logoColor=38BDF8" alt="N.O.V.A.L.I.S Organization" />
+    <img src="https://img.shields.io/badge/Organization-NOVALIS-090D16?style=for-the-badge&logo=github&logoColor=38BDF8" alt="NOVALIS Organization" />
   </a>
   <a href="https://github.com/khalid-naami">
     <img src="https://img.shields.io/badge/Founder-Khalid%20Naami-1E1B4B?style=for-the-badge&logo=githubsponsors&logoColor=818CF8" alt="Founder Khalid Naami" />
@@ -38,7 +38,7 @@
 
 > **Building cross-platform apps, market intelligence, and mission-critical AI to solve complex real-world problems.**
 
-**N.O.V.A.L.I.S** is an independent software engineering and applied intelligence organization focused on turning high-complexity domains into resilient, production-ready systems. Rather than building isolated prototypes, we design unified architectures where **software delivery**, **real-time data intelligence**, and **dependable AI models** operate as one cohesive stack.
+**NOVALIS** is an independent software engineering and applied intelligence organization focused on turning high-complexity domains into resilient, production-ready systems. Rather than building isolated prototypes, we design unified architectures where **software delivery**, **real-time data intelligence**, and **dependable AI models** operate as one cohesive stack.
 
 | Principle | Standard |
 | :--- | :--- |
@@ -53,7 +53,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/architecture_pillars_dark.svg">
-    <img alt="N.O.V.A.L.I.S Three-Pillar System Architecture" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/architecture_pillars_light.svg" width="100%">
+    <img alt="NOVALIS Three-Pillar System Architecture" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/architecture_pillars_light.svg" width="100%">
   </picture>
 </p>
 
@@ -118,7 +118,7 @@
 <!-- ORG-REPOS:END -->
 
 <p align="right">
-  <sub><i>Auto-synchronized every 6 hours via N.O.V.A.L.I.S Telemetry CI — automatically surfaces public repositories as they launch.</i></sub>
+  <sub><i>Auto-synchronized every 6 hours via NOVALIS Telemetry CI — automatically surfaces public repositories as they launch.</i></sub>
 </p>
 
 ---
@@ -129,7 +129,7 @@
   <a href="https://github.com/N-O-V-A-L-I-S/.github">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/org_telemetry_dark.svg">
-      <img alt="N.O.V.A.L.I.S Organization Engineering Telemetry" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/org_telemetry_light.svg" width="100%">
+      <img alt="NOVALIS Organization Engineering Telemetry" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/org_telemetry_light.svg" width="100%">
     </picture>
   </a>
 </p>
@@ -137,7 +137,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/intelligence_radar_dark.svg">
-    <img alt="N.O.V.A.L.I.S Global Market and Signal Radar" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/intelligence_radar_light.svg" width="100%">
+    <img alt="NOVALIS Global Market and Signal Radar" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/intelligence_radar_light.svg" width="100%">
   </picture>
 </p>
 
@@ -193,5 +193,5 @@ We welcome serious engineers, researchers, and strategic partners interested in 
 ---
 
 <p align="center">
-  <b>N.O.V.A.L.I.S</b> — <i>Engineered for real-world complexity. Built to endure.</i>
+  <b>NOVALIS</b> — <i>Engineered for real-world complexity. Built to endure.</i>
 </p>

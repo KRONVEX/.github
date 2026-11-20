@@ -1,6 +1,6 @@
 # Security Policy
 
-**N.O.V.A.L.I.S** builds cross-platform applications, market intelligence platforms, and mission-critical AI systems. Security and reliability are foundational to everything we ship.
+**NOVALIS** builds cross-platform applications, market intelligence platforms, and mission-critical AI systems. Security and reliability are foundational to everything we ship.
 
 ## Supported Versions
 
@@ -33,4 +33,4 @@ Instead, please report them responsibly via one of the following private channel
 - **Initial Triage & Severity Assessment:** Within 5 business days.
 - **Remediation & Coordinated Disclosure:** Prioritized based on severity (Critical/High issues are fast-tracked).
 
-We deeply appreciate responsible disclosure and will credit researchers who help strengthen the security of N.O.V.A.L.I.S systems.
+We deeply appreciate responsible disclosure and will credit researchers who help strengthen the security of NOVALIS systems.

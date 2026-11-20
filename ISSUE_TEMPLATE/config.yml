@@ -3,6 +3,6 @@ contact_links:
   - name: Security Vulnerability Disclosure
     url: https://github.com/N-O-V-A-L-I-S/.github/blob/main/SECURITY.md
     about: Please report security vulnerabilities privately rather than opening a public issue.
-  - name: N.O.V.A.L.I.S Organization Overview
+  - name: NOVALIS Organization Overview
     url: https://github.com/N-O-V-A-L-I-S
     about: Explore repositories, architecture, and contact channels.

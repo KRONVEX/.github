@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-N.O.V.A.L.I.S Organization Telemetry & Animated SVG Engine
+NOVALIS Organization Telemetry & Animated SVG Engine
 ==========================================================
 Generates 4 adaptive dark/light SVG visual panels (8 files total) for the
 N-O-V-A-L-I-S GitHub Organization profile (.github/profile/README.md) and
@@ -739,7 +739,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
         )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 276" width="960" height="276" role="img" aria-label="N.O.V.A.L.I.S Organization Command Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 276" width="960" height="276" role="img" aria-label="NOVALIS Organization Command Banner">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -797,7 +797,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
     <animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/>
   </circle>
   <text x="46" y="33" fill="{t['emerald']}" font-size="10" font-weight="700" class="mono">SYSTEMS OPERATIONAL</text>
-  <text x="480" y="33" text-anchor="middle" fill="{t['text_muted']}" font-size="10" font-weight="600" class="mono">N.O.V.A.L.I.S  //  ENGINEERING &amp; INTELLIGENCE ORGANIZATION</text>
+  <text x="480" y="33" text-anchor="middle" fill="{t['text_muted']}" font-size="10" font-weight="600" class="mono">NOVALIS  //  ENGINEERING &amp; INTELLIGENCE ORGANIZATION</text>
   <text x="926" y="33" text-anchor="end" fill="{t['text_secondary']}" font-size="10" font-weight="600" class="mono">GITHUB.COM/{org}</text>
   <line x1="28" y1="46" x2="932" y2="46" stroke="{t['border']}" stroke-width="1"/>
 
@@ -829,7 +829,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
   <rect x="478" y="64" width="136" height="22" rx="5" fill="{t['pill_violet_bg']}" stroke="{t['violet']}" stroke-width="0.7" stroke-opacity="0.45"/>
   <text x="546" y="79" text-anchor="middle" fill="{t['pill_violet_text']}" font-size="9.5" font-weight="700" class="mono">DEEP-TECH LAB</text>
 
-  <text x="218" y="128" fill="url(#wordmarkGrad)" font-size="42" font-weight="800" letter-spacing="7" class="sans">N·O·V·A·L·I·S</text>
+  <text x="218" y="128" fill="url(#wordmarkGrad)" font-size="42" font-weight="800" letter-spacing="7" class="sans">NOVALIS</text>
 
   <!-- Animated Signal Bar -->
   <rect x="218" y="138" width="460" height="3" rx="1.5" fill="{t['border']}"/>
@@ -941,7 +941,7 @@ def render_architecture_pillars(theme_name: str) -> str:
         )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 326" width="960" height="326" role="img" aria-label="N.O.V.A.L.I.S Three-Pillar System Architecture Blueprint">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 326" width="960" height="326" role="img" aria-label="NOVALIS Three-Pillar System Architecture Blueprint">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -1133,7 +1133,7 @@ def render_org_telemetry(stats: dict, theme_name: str) -> str:
     )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="N.O.V.A.L.I.S Organization Engineering Telemetry Console">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="NOVALIS Organization Engineering Telemetry Console">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -1159,7 +1159,7 @@ def render_org_telemetry(stats: dict, theme_name: str) -> str:
   <circle cx="34" cy="27" r="3.5" fill="{status_color}">
     <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text x="46" y="31" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">N.O.V.A.L.I.S // ORGANIZATION ENGINEERING TELEMETRY</text>
+  <text x="46" y="31" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">NOVALIS // ORGANIZATION ENGINEERING TELEMETRY</text>
   <rect x="444" y="16" width="144" height="20" rx="5" fill="{status_bg}" stroke="{status_color}" stroke-width="0.7" stroke-opacity="0.5"/>
   <text x="516" y="29.5" text-anchor="middle" fill="{status_color}" font-size="9.2" font-weight="800" class="mono">{escape(status_label)}</text>
   <text x="932" y="31" text-anchor="end" fill="{t['text_muted']}" font-size="9.5" class="mono">SYNC: {updated}</text>
@@ -1289,7 +1289,7 @@ def render_intelligence_radar(stats: dict, macro: dict, theme_name: str) -> str:
     )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 206" width="960" height="206" role="img" aria-label="N.O.V.A.L.I.S Global Market and AI Signal Radar">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 206" width="960" height="206" role="img" aria-label="NOVALIS Global Market and AI Signal Radar">
   <style>
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
   </style>
@@ -1407,7 +1407,7 @@ def render_repos_markdown(stats: dict) -> str:
     for repo in repos[:6]:
         name = escape(repo["name"])
         url = escape(repo["url"])
-        desc = escape(truncate_text(repo["description"] or "Core N.O.V.A.L.I.S engineering module.", 96))
+        desc = escape(truncate_text(repo["description"] or "Core NOVALIS engineering module.", 96))
         lang = escape(repo["language"])
         stars = int(repo["stars"])
         forks = int(repo["forks"])
@@ -1490,7 +1490,7 @@ def write_svg(path: str, svg_text: str, is_live: bool, force: bool) -> None:
 # ---------------------------------------------------------------------------
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="N.O.V.A.L.I.S Organization SVG & Telemetry Engine")
+    parser = argparse.ArgumentParser(description="NOVALIS Organization SVG & Telemetry Engine")
     parser.add_argument("--org", default=os.environ.get("ORG_NAME") or DEFAULT_ORG, help="GitHub organization login")
     parser.add_argument("--assets-dir", default="assets", help="Output directory for generated SVGs")
     parser.add_argument("--readme", default=os.path.join("profile", "README.md"), help="Path to org profile README.md")

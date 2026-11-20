@@ -2,15 +2,15 @@
   <a href="https://github.com/N-O-V-A-L-I-S">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_dark.svg">
-      <img alt="N.O.V.A.L.I.S Control Plane" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
+      <img alt="NOVALIS Control Plane" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
     </picture>
   </a>
 </p>
 
-<h1 align="center">N.O.V.A.L.I.S — Organization Control Plane (<code>.github</code>)</h1>
+<h1 align="center">NOVALIS — Organization Control Plane (<code>.github</code>)</h1>
 
 <p align="center">
-  <i>Official profile architecture, automated SVG telemetry engine, and organization-wide engineering governance for <a href="https://github.com/N-O-V-A-L-I-S"><b>N.O.V.A.L.I.S</b></a>.</i>
+  <i>Official profile architecture, automated SVG telemetry engine, and organization-wide engineering governance for <a href="https://github.com/N-O-V-A-L-I-S"><b>NOVALIS</b></a>.</i>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@
 
 ## Overview
 
-This special **`.github`** repository serves as the central configuration and automation layer for the **[N.O.V.A.L.I.S](https://github.com/N-O-V-A-L-I-S)** GitHub organization:
+This special **`.github`** repository serves as the central configuration and automation layer for the **[NOVALIS](https://github.com/N-O-V-A-L-I-S)** GitHub organization:
 
 > **Building cross-platform apps, market intelligence, and mission-critical AI to solve complex real-world problems.**
 
@@ -140,7 +140,7 @@ python .github/scripts/novalis_engine.py --offline --force
 
 ## Maintainer & Leadership
 
-Maintained by **[@khalid-naami](https://github.com/khalid-naami)** — Founder & Lead Architect of **[N.O.V.A.L.I.S](https://github.com/N-O-V-A-L-I-S)**.
+Maintained by **[@khalid-naami](https://github.com/khalid-naami)** — Founder & Lead Architect of **[NOVALIS](https://github.com/N-O-V-A-L-I-S)**.
 
 * **Organization:** [github.com/N-O-V-A-L-I-S](https://github.com/N-O-V-A-L-I-S)
 * **Web & Research:** [khalidnaami.com](https://khalidnaami.com)

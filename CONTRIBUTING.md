@@ -1,6 +1,6 @@
-# Contributing to N.O.V.A.L.I.S
+# Contributing to NOVALIS
 
-Thank you for your interest in contributing to **N.O.V.A.L.I.S**. We engineer cross-platform applications, market intelligence platforms, and mission-critical AI systems with a focus on correctness, clarity, and real-world resilience.
+Thank you for your interest in contributing to **NOVALIS**. We engineer cross-platform applications, market intelligence platforms, and mission-critical AI systems with a focus on correctness, clarity, and real-world resilience.
 
 ## Ways to Contribute
 

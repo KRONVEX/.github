@@ -2,7 +2,7 @@
 
 ## Our Commitment
 
-As maintainers and contributors of **N.O.V.A.L.I.S**, we are committed to maintaining an open, rigorous, respectful, and harassment-free engineering environment for everyone, regardless of background, experience level, or identity.
+As maintainers and contributors of **NOVALIS**, we are committed to maintaining an open, rigorous, respectful, and harassment-free engineering environment for everyone, regardless of background, experience level, or identity.
 
 ## Expected Behavior
 

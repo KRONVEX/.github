@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="N.O.V.A.L.I.S Organization Engineering Telemetry Console">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="NOVALIS Organization Engineering Telemetry Console">
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
@@ -25,10 +25,10 @@
   <circle cx="34" cy="27" r="3.5" fill="#818CF8">
     <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text x="46" y="31" fill="#F8FAFC" font-size="11.5" font-weight="800" class="mono">N.O.V.A.L.I.S // ORGANIZATION ENGINEERING TELEMETRY</text>
+  <text x="46" y="31" fill="#F8FAFC" font-size="11.5" font-weight="800" class="mono">NOVALIS // ORGANIZATION ENGINEERING TELEMETRY</text>
   <rect x="444" y="16" width="144" height="20" rx="5" fill="#1E1B4B" stroke="#818CF8" stroke-width="0.7" stroke-opacity="0.5"/>
   <text x="516" y="29.5" text-anchor="middle" fill="#818CF8" font-size="9.2" font-weight="800" class="mono">GENESIS LAUNCHPAD</text>
-  <text x="932" y="31" text-anchor="end" fill="#64748B" font-size="9.5" class="mono">SYNC: 2026-11-20 12:35 UTC</text>
+  <text x="932" y="31" text-anchor="end" fill="#64748B" font-size="9.5" class="mono">SYNC: 2026-11-20 21:50 UTC</text>
 
   <!-- 4 Executive KPI Cards -->
   <rect x="28" y="54" width="214" height="68" rx="10" fill="#0F1624" stroke="#1E293B" stroke-width="1"/>
@@ -61,29 +61,29 @@
   <line x1="46.0" y1="208.0" x2="558.0" y2="208.0" stroke="#162033" stroke-width="0.9" stroke-dasharray="3,4"/>
   <line x1="46.0" y1="242.0" x2="558.0" y2="242.0" stroke="#162033" stroke-width="0.9" stroke-dasharray="3,4"/>
   <line x1="46.0" y1="276.0" x2="558.0" y2="276.0" stroke="#162033" stroke-width="0.9" stroke-dasharray="3,4"/>
-  <rect x="54.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="86.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="118.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="150.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="182.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="214.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="246.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="278.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="310.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="342.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="374.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="406.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="438.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="470.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <rect x="502.6" y="273.0" width="14.7" height="3.0" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="54.6" y="268.2" width="14.7" height="7.8" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="86.6" y="264.3" width="14.7" height="11.7" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="118.6" y="260.4" width="14.7" height="15.6" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="150.6" y="260.4" width="14.7" height="15.6" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="182.6" y="252.6" width="14.7" height="23.4" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="214.6" y="256.5" width="14.7" height="19.5" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="246.6" y="244.9" width="14.7" height="31.1" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="278.6" y="248.8" width="14.7" height="27.2" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="310.6" y="237.1" width="14.7" height="38.9" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="342.6" y="233.2" width="14.7" height="42.8" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="374.6" y="229.3" width="14.7" height="46.7" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="406.6" y="221.5" width="14.7" height="54.5" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="438.6" y="225.4" width="14.7" height="50.6" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="470.6" y="213.7" width="14.7" height="62.3" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
+  <rect x="502.6" y="205.9" width="14.7" height="70.1" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
   <rect x="534.6" y="194.3" width="14.7" height="81.7" rx="2.5" fill="#38BDF8" fill-opacity="0.28"/>
-  <path d="M 62.0 273.0 C 67.3 273.0, 83.3 273.0, 94.0 273.0 C 104.7 273.0, 115.3 273.0, 126.0 273.0 C 136.7 273.0, 147.3 273.0, 158.0 273.0 C 168.7 273.0, 179.3 273.0, 190.0 273.0 C 200.7 273.0, 211.3 273.0, 222.0 273.0 C 232.7 273.0, 243.3 273.0, 254.0 273.0 C 264.7 273.0, 275.3 273.0, 286.0 273.0 C 296.7 273.0, 307.3 273.0, 318.0 273.0 C 328.7 273.0, 339.3 273.0, 350.0 273.0 C 360.7 273.0, 371.3 273.0, 382.0 273.0 C 392.7 273.0, 403.3 273.0, 414.0 273.0 C 424.7 273.0, 435.3 273.0, 446.0 273.0 C 456.7 273.0, 467.3 273.0, 478.0 273.0 C 488.7 273.0, 499.3 277.9, 510.0 273.0 C 520.7 268.1, 536.7 248.3, 542.0 243.3 L 542.0 276.0 L 62.0 276.0 Z" fill="url(#velArea)"/>
-  <path d="M 62.0 273.0 C 67.3 273.0, 83.3 273.0, 94.0 273.0 C 104.7 273.0, 115.3 273.0, 126.0 273.0 C 136.7 273.0, 147.3 273.0, 158.0 273.0 C 168.7 273.0, 179.3 273.0, 190.0 273.0 C 200.7 273.0, 211.3 273.0, 222.0 273.0 C 232.7 273.0, 243.3 273.0, 254.0 273.0 C 264.7 273.0, 275.3 273.0, 286.0 273.0 C 296.7 273.0, 307.3 273.0, 318.0 273.0 C 328.7 273.0, 339.3 273.0, 350.0 273.0 C 360.7 273.0, 371.3 273.0, 382.0 273.0 C 392.7 273.0, 403.3 273.0, 414.0 273.0 C 424.7 273.0, 435.3 273.0, 446.0 273.0 C 456.7 273.0, 467.3 273.0, 478.0 273.0 C 488.7 273.0, 499.3 277.9, 510.0 273.0 C 520.7 268.1, 536.7 248.3, 542.0 243.3" fill="none" stroke="url(#velLine)" stroke-width="2.2" stroke-linecap="round"/>
-  <circle cx="542.0" cy="243.3" r="6" fill="#818CF8" fill-opacity="0.28">
+  <path d="M 62.0 268.2 C 67.3 268.0, 83.3 267.3, 94.0 266.7 C 104.7 266.0, 115.3 264.8, 126.0 264.2 C 136.7 263.5, 147.3 263.6, 158.0 262.7 C 168.7 261.8, 179.3 259.5, 190.0 258.7 C 200.7 257.9, 211.3 258.8, 222.0 257.8 C 232.7 256.8, 243.3 253.8, 254.0 252.6 C 264.7 251.5, 275.3 252.3, 286.0 251.1 C 296.7 249.9, 307.3 247.2, 318.0 245.5 C 328.7 243.7, 339.3 242.1, 350.0 240.6 C 360.7 239.0, 371.3 237.8, 382.0 236.1 C 392.7 234.3, 403.3 231.5, 414.0 230.2 C 424.7 228.9, 435.3 229.6, 446.0 228.3 C 456.7 227.0, 467.3 224.5, 478.0 222.5 C 488.7 220.4, 499.3 218.4, 510.0 215.9 C 520.7 213.3, 536.7 208.7, 542.0 207.2 L 542.0 276.0 L 62.0 276.0 Z" fill="url(#velArea)"/>
+  <path d="M 62.0 268.2 C 67.3 268.0, 83.3 267.3, 94.0 266.7 C 104.7 266.0, 115.3 264.8, 126.0 264.2 C 136.7 263.5, 147.3 263.6, 158.0 262.7 C 168.7 261.8, 179.3 259.5, 190.0 258.7 C 200.7 257.9, 211.3 258.8, 222.0 257.8 C 232.7 256.8, 243.3 253.8, 254.0 252.6 C 264.7 251.5, 275.3 252.3, 286.0 251.1 C 296.7 249.9, 307.3 247.2, 318.0 245.5 C 328.7 243.7, 339.3 242.1, 350.0 240.6 C 360.7 239.0, 371.3 237.8, 382.0 236.1 C 392.7 234.3, 403.3 231.5, 414.0 230.2 C 424.7 228.9, 435.3 229.6, 446.0 228.3 C 456.7 227.0, 467.3 224.5, 478.0 222.5 C 488.7 220.4, 499.3 218.4, 510.0 215.9 C 520.7 213.3, 536.7 208.7, 542.0 207.2" fill="none" stroke="url(#velLine)" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="542.0" cy="207.2" r="6" fill="#818CF8" fill-opacity="0.28">
     <animate attributeName="r" values="4;8.5;4" dur="2.4s" repeatCount="indefinite"/>
     <animate attributeName="fill-opacity" values="0.45;0.08;0.45" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="542.0" cy="243.3" r="3" fill="#818CF8"/>
+  <circle cx="542.0" cy="207.2" r="3" fill="#818CF8"/>
   <text x="46" y="289" fill="#64748B" font-size="8.8" class="mono">T-16W</text>
   <text x="302" y="289" text-anchor="middle" fill="#64748B" font-size="8.8" class="mono">ENGINEERING CADENCE</text>
   <text x="558" y="289" text-anchor="end" fill="#64748B" font-size="8.8" class="mono">NOW</text>
