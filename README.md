@@ -1,48 +1,147 @@
-# N.O.V.A.L.I.S — Organization `.github` Repository
+<p align="center">
+  <a href="https://github.com/N-O-V-A-L-I-S">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_dark.svg">
+      <img alt="N.O.V.A.L.I.S Control Plane" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
+    </picture>
+  </a>
+</p>
 
-This repository powers the public organization profile at [github.com/N-O-V-A-L-I-S](https://github.com/N-O-V-A-L-I-S), org-wide community health files, and the automated SVG telemetry engine.
+<h1 align="center">N.O.V.A.L.I.S — Organization Control Plane (<code>.github</code>)</h1>
+
+<p align="center">
+  <i>Official profile architecture, automated SVG telemetry engine, and organization-wide engineering governance for <a href="https://github.com/N-O-V-A-L-I-S"><b>N.O.V.A.L.I.S</b></a>.</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/N-O-V-A-L-I-S/.github/actions/workflows/novalis_telemetry.yml">
+    <img src="https://github.com/N-O-V-A-L-I-S/.github/actions/workflows/novalis_telemetry.yml/badge.svg" alt="Telemetry CI Status" />
+  </a>
+  <a href="https://github.com/N-O-V-A-L-I-S/.github/releases/latest">
+    <img src="https://img.shields.io/github/v/release/N-O-V-A-L-I-S/.github?style=flat-square&color=38BDF8&labelColor=090D16" alt="Latest Release" />
+  </a>
+  <a href="https://github.com/N-O-V-A-L-I-S">
+    <img src="https://img.shields.io/badge/Org%20Profile-N--O--V--A--L--I--S-818CF8?style=flat-square&labelColor=090D16" alt="Organization Profile" />
+  </a>
+  <img src="https://img.shields.io/badge/Telemetry%20Sync-Every%206h-10B981?style=flat-square&labelColor=090D16" alt="6h Auto Sync" />
+  <img src="https://img.shields.io/badge/Themes-Dark%20%26%20Light%20Adaptive-0EA5E9?style=flat-square&labelColor=090D16" alt="Adaptive Dark and Light Themes" />
+</p>
+
+---
+
+## Overview
+
+This special **`.github`** repository serves as the central configuration and automation layer for the **[N.O.V.A.L.I.S](https://github.com/N-O-V-A-L-I-S)** GitHub organization:
+
+> **Building cross-platform apps, market intelligence, and mission-critical AI to solve complex real-world problems.**
+
+It powers three core capabilities across the entire organization:
+
+1. **Public Organization Homepage (`profile/README.md`):** Automatically rendered by GitHub on [github.com/N-O-V-A-L-I-S](https://github.com/N-O-V-A-L-I-S) with full dark/light theme adaptation and live repository synchronization.
+2. **Automated Telemetry & SVG Rendering Engine (`.github/scripts/novalis_engine.py`):** A zero-fragility Python engine executed every 6 hours via GitHub Actions that aggregates live organization engineering metrics and global market feeds into custom animated SVG dashboards.
+3. **Org-Wide Governance & Community Health Defaults:** Unified security disclosure, contribution guidelines, code of conduct, pull request checklists, and structured YAML issue forms automatically inherited by every repository under `N-O-V-A-L-I-S`.
+
+---
+
+## Telemetry Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A["GitHub GraphQL & REST API"] --> C["novalis_engine.py"]
+    B["Global Market Feeds (SPX · GOLD · BTC)"] --> C
+    C --> D["8 Adaptive Animated SVGs"]
+    C --> E["profile/README.md Ecosystem Sync"]
+    D --> F["GitHub Actions CI (6h Schedule)"]
+    E --> F
+    F --> G["github.com/N-O-V-A-L-I-S"]
+```
+
+---
+
+## Animated SVG Telemetry Modules
+
+All visual panels share a unified **`960px` architectural grid**, native SMIL animations supported directly by GitHub, and automatic `prefers-color-scheme` dark/light rendering.
+
+| Module | Assets (`assets/`) | Dimensions | Function & Data Source |
+| :--- | :--- | :---: | :--- |
+| **Command Header** | `hero_command_{dark,light}.svg` | `960 × 276` | Rotating orbital emblem, blueprint grid, scan pulse, mission lockup, and 3-pillar status strip. |
+| **System Blueprint** | `architecture_pillars_{dark,light}.svg` | `960 × 326` | Three-pillar architectural matrix (*Cross-Platform*, *Market Intel*, *Mission-Critical AI*) with animated data conduits. |
+| **Org Telemetry Console** | `org_telemetry_{dark,light}.svg` | `960 × 346` | Live GitHub GraphQL/REST KPIs, 16-week EMA velocity curve, stack matrix, and seamless *Genesis → Live* auto-transition. |
+| **Global Signal Radar** | `intelligence_radar_{dark,light}.svg` | `960 × 206` | 360° animated tactical radar paired with live sparkline telemetry for `SPX`, `GOLD`, `BTC-USD`, and `NOVALIS` Org Pulse. |
+
+---
 
 ## Repository Structure
 
 ```text
 .github/
 ├── profile/
-│   └── README.md                         # Public organization homepage (rendered on github.com/N-O-V-A-L-I-S)
+│   └── README.md                             # Public organization landing page (github.com/N-O-V-A-L-I-S)
 ├── assets/
-│   ├── hero_command_{dark,light}.svg     # Animated command header banner
-│   ├── architecture_pillars_{dark,light}.svg  # Three-pillar system blueprint
-│   ├── org_telemetry_{dark,light}.svg    # Live GitHub Org engineering console
-│   └── intelligence_radar_{dark,light}.svg    # Global market & signal radar HUD
+│   ├── hero_command_{dark,light}.svg         # Animated command center hero banner
+│   ├── architecture_pillars_{dark,light}.svg # Three-pillar system architecture blueprint
+│   ├── org_telemetry_{dark,light}.svg        # Live organization engineering console
+│   └── intelligence_radar_{dark,light}.svg   # Global market & signal radar HUD
 ├── .github/
-│   ├── scripts/novalis_engine.py         # SVG & GitHub Org telemetry generator
-│   └── workflows/novalis_telemetry.yml   # 6-hour scheduled CI/CD auto-refresh
-├── ISSUE_TEMPLATE/                       # Default org-wide issue forms
-├── PULL_REQUEST_TEMPLATE.md              # Default org-wide PR checklist
-├── CONTRIBUTING.md                       # Default org-wide contribution guide
-├── SECURITY.md                           # Default org-wide security policy
-└── CODE_OF_CONDUCT.md                    # Default org-wide code of conduct
+│   ├── scripts/novalis_engine.py             # Telemetry fetcher, SVG renderer & README sync engine
+│   └── workflows/novalis_telemetry.yml       # Scheduled 6h CI/CD automation workflow
+├── ISSUE_TEMPLATE/
+│   ├── bug_report.yml                        # Structured org-wide bug report form
+│   ├── feature_request.yml                   # Architecture & feature proposal form
+│   └── config.yml                            # Issue chooser & security redirect links
+├── PULL_REQUEST_TEMPLATE.md                  # Standard PR verification checklist
+├── SECURITY.md                               # Responsible vulnerability disclosure policy
+├── CONTRIBUTING.md                           # Engineering standards & contribution workflow
+├── CODE_OF_CONDUCT.md                        # Community conduct standards
+└── README.md                                 # Control plane documentation (this file)
 ```
 
-## Quick Deployment to GitHub
+---
 
-1. Create a **public** repository named **`.github`** inside the `N-O-V-A-L-I-S` organization (`https://github.com/N-O-V-A-L-I-S/.github`).
-2. Push this directory to the `main` branch:
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "feat: initialize N.O.V.A.L.I.S organization profile & telemetry engine"
-   git remote add origin https://github.com/N-O-V-A-L-I-S/.github.git
-   git push -u origin main
-   ```
-3. *(Optional, Recommended for GraphQL Org Commit History)* Add a repository secret named **`ORG_ACCESS_TOKEN`** (Fine-grained PAT with read-only access to org repositories & metadata) under **Settings → Secrets and variables → Actions**. Without it, the workflow automatically uses `GITHUB_TOKEN` and REST fallback.
-4. Trigger **Actions → N.O.V.A.L.I.S Telemetry & SVG Engine → Run workflow** to pull live market and organization telemetry immediately.
+## Org-Wide Governance Defaults
 
-## Local Preview & Regeneration
+Every new repository created under **[N-O-V-A-L-I-S](https://github.com/N-O-V-A-L-I-S)** automatically inherits the following standards unless overridden locally:
+
+| Standard | Document | Purpose |
+| :--- | :--- | :--- |
+| **Security Policy** | [SECURITY.md](SECURITY.md) | Private vulnerability disclosure channels and 48h/5d response SLAs. |
+| **Contribution Guide** | [CONTRIBUTING.md](CONTRIBUTING.md) | Branching, conventional commits, reliability standards, and review criteria. |
+| **Code of Conduct** | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Professional collaboration expectations across all org repositories. |
+| **Issue & PR Templates** | [ISSUE_TEMPLATE/](ISSUE_TEMPLATE) · [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) | Structured defect reports, pillar-tagged proposals, and PR verification checklists. |
+
+---
+
+## Engine CLI & CI Configuration
+
+The rendering engine in [`.github/scripts/novalis_engine.py`](.github/scripts/novalis_engine.py) uses the Python standard library (with optional `yfinance` for real-time market series) and protects existing live SVGs from being overwritten during transient upstream outages.
+
+### CLI Usage
 
 ```bash
-# Offline / Genesis preview (no network required)
-python .github/scripts/novalis_engine.py --offline --force
-
-# Live fetch (uses GITHUB_TOKEN or public REST API + live market feeds)
+# Regenerate assets with live GitHub API & global market telemetry
 python .github/scripts/novalis_engine.py --org N-O-V-A-L-I-S --force
+
+# Offline local preview (Genesis / Standby baseline, zero network calls)
+python .github/scripts/novalis_engine.py --offline --force
 ```
+
+### Arguments & Environment Variables
+
+| Option / Variable | Default | Description |
+| :--- | :--- | :--- |
+| `--org` / `ORG_NAME` | `N-O-V-A-L-I-S` | Target GitHub organization login queried for telemetry and ecosystem sync. |
+| `--assets-dir` | `assets` | Output directory for all 8 generated dark/light SVG panels. |
+| `--readme` | `profile/README.md` | Target organization README containing `<!-- ORG-REPOS:START/END -->` sync markers. |
+| `--offline` | `false` | Runs deterministic local generation without network requests. |
+| `--force` | `false` | Forces overwriting existing SVGs even when running in offline/standby mode. |
+| `ORG_ACCESS_TOKEN` | *(optional secret)* | Fine-grained PAT (read-only org repos/metadata) for full GraphQL commit history. Falls back automatically to `GITHUB_TOKEN` and REST API. |
+
+---
+
+## Maintainer & Leadership
+
+Maintained by **[@khalid-naami](https://github.com/khalid-naami)** — Founder & Lead Architect of **[N.O.V.A.L.I.S](https://github.com/N-O-V-A-L-I-S)**.
+
+* **Organization:** [github.com/N-O-V-A-L-I-S](https://github.com/N-O-V-A-L-I-S)
+* **Web & Research:** [khalidnaami.com](https://khalidnaami.com)
+* **Direct Contact:** [khalidnaami66@gmail.com](mailto:khalidnaami66@gmail.com)
