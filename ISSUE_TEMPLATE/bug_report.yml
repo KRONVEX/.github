@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a reproducible defect or unexpected behavior in a NOVALIS system
+description: Report a reproducible defect or unexpected behavior in a KRONVEX system
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:

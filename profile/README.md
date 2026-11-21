@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="https://github.com/N-O-V-A-L-I-S">
+  <a href="https://github.com/KRONVEX">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_dark.svg">
-      <img alt="NOVALIS Command Banner" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/hero_command_light.svg" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/hero_command_dark.svg">
+      <img alt="KRONVEX Command Banner" src="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/hero_command_light.svg" width="100%">
     </picture>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/N-O-V-A-L-I-S">
-    <img src="https://img.shields.io/badge/Organization-NOVALIS-090D16?style=for-the-badge&logo=github&logoColor=38BDF8" alt="NOVALIS Organization" />
+  <a href="https://github.com/KRONVEX">
+    <img src="https://img.shields.io/badge/Organization-KRONVEX-090D16?style=for-the-badge&logo=github&logoColor=38BDF8" alt="KRONVEX Organization" />
   </a>
   <a href="https://github.com/khalid-naami">
     <img src="https://img.shields.io/badge/Founder-Khalid%20Naami-1E1B4B?style=for-the-badge&logo=githubsponsors&logoColor=818CF8" alt="Founder Khalid Naami" />
@@ -24,10 +24,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Cross--Platform%20%C2%B7%20Market%20Intel%20%C2%B7%20Mission--Critical%20AI-0F1624?style=flat-square&labelColor=090D16" alt="Focus Areas" />
-  <a href="https://github.com/N-O-V-A-L-I-S/.github/blob/main/SECURITY.md">
+  <a href="https://github.com/KRONVEX/.github/blob/main/SECURITY.md">
     <img src="https://img.shields.io/badge/Security-Policy%20Active-10B981?style=flat-square&labelColor=090D16" alt="Security Policy" />
   </a>
-  <a href="https://github.com/N-O-V-A-L-I-S/.github/blob/main/CONTRIBUTING.md">
+  <a href="https://github.com/KRONVEX/.github/blob/main/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contributions-Welcome-38BDF8?style=flat-square&labelColor=090D16" alt="Contributions Welcome" />
   </a>
 </p>
@@ -38,7 +38,7 @@
 
 > **Building cross-platform apps, market intelligence, and mission-critical AI to solve complex real-world problems.**
 
-**NOVALIS** is an independent software engineering and applied intelligence organization focused on turning high-complexity domains into resilient, production-ready systems. Rather than building isolated prototypes, we design unified architectures where **software delivery**, **real-time data intelligence**, and **dependable AI models** operate as one cohesive stack.
+**KRONVEX** is an independent software engineering and applied intelligence organization focused on turning high-complexity domains into resilient, production-ready systems. Rather than building isolated prototypes, we design unified architectures where **software delivery**, **real-time data intelligence**, and **dependable AI models** operate as one cohesive stack.
 
 | Principle | Standard |
 | :--- | :--- |
@@ -52,8 +52,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/architecture_pillars_dark.svg">
-    <img alt="NOVALIS Three-Pillar System Architecture" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/architecture_pillars_light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/architecture_pillars_dark.svg">
+    <img alt="KRONVEX Three-Pillar System Architecture" src="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/architecture_pillars_light.svg" width="100%">
   </picture>
 </p>
 
@@ -96,19 +96,19 @@
   </thead>
   <tbody>
     <tr>
-      <td><b><code>novalis-cross-core</code></b></td>
+      <td><b><code>kronvex-cross-core</code></b></td>
       <td>Cross-Platform Apps</td>
       <td>Shared UI architecture, design tokens &amp; multi-platform client foundations for web, mobile, and desktop</td>
       <td align="center"><img src="https://img.shields.io/badge/Architecture-0EA5E9?style=flat-square" alt="Architecture"/></td>
     </tr>
     <tr>
-      <td><b><code>novalis-market-intel</code></b></td>
+      <td><b><code>kronvex-market-intel</code></b></td>
       <td>Market Intelligence</td>
       <td>Real-time market data ingestion, quantitative signal extraction &amp; macro analytics infrastructure</td>
       <td align="center"><img src="https://img.shields.io/badge/R%26D%20Pipeline-10B981?style=flat-square" alt="R&D Pipeline"/></td>
     </tr>
     <tr>
-      <td><b><code>novalis-ai-runtime</code></b></td>
+      <td><b><code>kronvex-ai-runtime</code></b></td>
       <td>Mission-Critical AI</td>
       <td>High-reliability neural inference, deterministic agent orchestration &amp; automated evaluation harnesses</td>
       <td align="center"><img src="https://img.shields.io/badge/Incubating-6366F1?style=flat-square" alt="Incubating"/></td>
@@ -118,7 +118,7 @@
 <!-- ORG-REPOS:END -->
 
 <p align="right">
-  <sub><i>Auto-synchronized every 6 hours via NOVALIS Telemetry CI — automatically surfaces public repositories as they launch.</i></sub>
+  <sub><i>Auto-synchronized every 6 hours via KRONVEX Telemetry CI — automatically surfaces public repositories as they launch.</i></sub>
 </p>
 
 ---
@@ -126,18 +126,18 @@
 ## Live Organization Telemetry & Signal Radar
 
 <p align="center">
-  <a href="https://github.com/N-O-V-A-L-I-S/.github">
+  <a href="https://github.com/KRONVEX/.github">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/org_telemetry_dark.svg">
-      <img alt="NOVALIS Organization Engineering Telemetry" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/org_telemetry_light.svg" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/org_telemetry_dark.svg">
+      <img alt="KRONVEX Organization Engineering Telemetry" src="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/org_telemetry_light.svg" width="100%">
     </picture>
   </a>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/intelligence_radar_dark.svg">
-    <img alt="NOVALIS Global Market and Signal Radar" src="https://raw.githubusercontent.com/N-O-V-A-L-I-S/.github/main/assets/intelligence_radar_light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/intelligence_radar_dark.svg">
+    <img alt="KRONVEX Global Market and Signal Radar" src="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/intelligence_radar_light.svg" width="100%">
   </picture>
 </p>
 
@@ -185,13 +185,13 @@
 
 We welcome serious engineers, researchers, and strategic partners interested in high-impact systems across apps, market intelligence, and applied AI.
 
-- **Contributing Guidelines:** [CONTRIBUTING.md](https://github.com/N-O-V-A-L-I-S/.github/blob/main/CONTRIBUTING.md)
-- **Security Disclosure:** [SECURITY.md](https://github.com/N-O-V-A-L-I-S/.github/blob/main/SECURITY.md)
-- **Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/N-O-V-A-L-I-S/.github/blob/main/CODE_OF_CONDUCT.md)
+- **Contributing Guidelines:** [CONTRIBUTING.md](https://github.com/KRONVEX/.github/blob/main/CONTRIBUTING.md)
+- **Security Disclosure:** [SECURITY.md](https://github.com/KRONVEX/.github/blob/main/SECURITY.md)
+- **Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/KRONVEX/.github/blob/main/CODE_OF_CONDUCT.md)
 - **Founder & Lead Architect:** [@khalid-naami](https://github.com/khalid-naami) · [khalidnaami.com](https://khalidnaami.com) · [khalidnaami66@gmail.com](mailto:khalidnaami66@gmail.com)
 
 ---
 
 <p align="center">
-  <b>NOVALIS</b> — <i>Engineered for real-world complexity. Built to endure.</i>
+  <b>KRONVEX</b> — <i>Engineered for real-world complexity. Built to endure.</i>
 </p>

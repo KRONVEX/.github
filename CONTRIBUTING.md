@@ -1,6 +1,6 @@
-# Contributing to NOVALIS
+# Contributing to KRONVEX
 
-Thank you for your interest in contributing to **NOVALIS**. We engineer cross-platform applications, market intelligence platforms, and mission-critical AI systems with a focus on correctness, clarity, and real-world resilience.
+Thank you for your interest in contributing to **KRONVEX**. We engineer cross-platform applications, market intelligence platforms, and mission-critical AI systems with a focus on correctness, clarity, and real-world resilience.
 
 ## Ways to Contribute
 

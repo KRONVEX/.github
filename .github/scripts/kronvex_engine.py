@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-NOVALIS Organization Telemetry & Animated SVG Engine
+KRONVEX Organization Telemetry & Animated SVG Engine
 ==========================================================
 Generates 4 adaptive dark/light SVG visual panels (8 files total) for the
-N-O-V-A-L-I-S GitHub Organization profile (.github/profile/README.md) and
+KRONVEX GitHub Organization profile (.github/profile/README.md) and
 automatically syncs the Flagship Ecosystem repository table.
 
 Generated Assets (assets/):
@@ -32,7 +32,7 @@ import urllib.request
 from xml.sax.saxutils import escape
 
 
-DEFAULT_ORG = "N-O-V-A-L-I-S"
+DEFAULT_ORG = "KRONVEX"
 GRAPHQL_URL = "https://api.github.com/graphql"
 REST_API_URL = "https://api.github.com"
 
@@ -136,9 +136,9 @@ GENESIS_STACK = [
 ]
 
 GENESIS_ROADMAP = [
-    {"name": "novalis-cross-core", "tag": "CROSS-PLATFORM", "status": "ARCHITECTURE", "color": "#38BDF8"},
-    {"name": "novalis-market-intel", "tag": "MARKET INTEL", "status": "R&D PIPELINE", "color": "#10B981"},
-    {"name": "novalis-ai-runtime", "tag": "MISSION AI", "status": "INCUBATING", "color": "#818CF8"},
+    {"name": "kronvex-cross-core", "tag": "CROSS-PLATFORM", "status": "ARCHITECTURE", "color": "#38BDF8"},
+    {"name": "kronvex-market-intel", "tag": "MARKET INTEL", "status": "R&D PIPELINE", "color": "#10B981"},
+    {"name": "kronvex-ai-runtime", "tag": "MISSION AI", "status": "INCUBATING", "color": "#818CF8"},
 ]
 
 FALLBACK_MACRO = {
@@ -175,7 +175,7 @@ FALLBACK_MACRO = {
 
 def http_get_text(url: str, headers: dict[str, str] | None = None, timeout: int = 15) -> str:
     req_headers = {
-        "User-Agent": "NOVALIS-Org-Telemetry-Engine/2.0",
+        "User-Agent": "KRONVEX-Org-Telemetry-Engine/2.0",
         "Accept": "application/json,text/csv,*/*",
     }
     if headers:
@@ -193,7 +193,7 @@ def graphql_request(query: str, variables: dict, token: str) -> dict:
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
-            "User-Agent": "NOVALIS-Org-Telemetry-Engine/2.0",
+            "User-Agent": "KRONVEX-Org-Telemetry-Engine/2.0",
         },
         method="POST",
     )
@@ -739,7 +739,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
         )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 276" width="960" height="276" role="img" aria-label="NOVALIS Organization Command Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 276" width="960" height="276" role="img" aria-label="KRONVEX Organization Command Banner">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -797,7 +797,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
     <animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/>
   </circle>
   <text x="46" y="33" fill="{t['emerald']}" font-size="10" font-weight="700" class="mono">SYSTEMS OPERATIONAL</text>
-  <text x="480" y="33" text-anchor="middle" fill="{t['text_muted']}" font-size="10" font-weight="600" class="mono">NOVALIS  //  ENGINEERING &amp; INTELLIGENCE ORGANIZATION</text>
+  <text x="480" y="33" text-anchor="middle" fill="{t['text_muted']}" font-size="10" font-weight="600" class="mono">KRONVEX  //  ENGINEERING &amp; INTELLIGENCE ORGANIZATION</text>
   <text x="926" y="33" text-anchor="end" fill="{t['text_secondary']}" font-size="10" font-weight="600" class="mono">GITHUB.COM/{org}</text>
   <line x1="28" y1="46" x2="932" y2="46" stroke="{t['border']}" stroke-width="1"/>
 
@@ -829,7 +829,7 @@ def render_hero_command(stats: dict, theme_name: str) -> str:
   <rect x="478" y="64" width="136" height="22" rx="5" fill="{t['pill_violet_bg']}" stroke="{t['violet']}" stroke-width="0.7" stroke-opacity="0.45"/>
   <text x="546" y="79" text-anchor="middle" fill="{t['pill_violet_text']}" font-size="9.5" font-weight="700" class="mono">DEEP-TECH LAB</text>
 
-  <text x="218" y="128" fill="url(#wordmarkGrad)" font-size="42" font-weight="800" letter-spacing="7" class="sans">NOVALIS</text>
+  <text x="218" y="128" fill="url(#wordmarkGrad)" font-size="42" font-weight="800" letter-spacing="7" class="sans">KRONVEX</text>
 
   <!-- Animated Signal Bar -->
   <rect x="218" y="138" width="460" height="3" rx="1.5" fill="{t['border']}"/>
@@ -941,7 +941,7 @@ def render_architecture_pillars(theme_name: str) -> str:
         )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 326" width="960" height="326" role="img" aria-label="NOVALIS Three-Pillar System Architecture Blueprint">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 326" width="960" height="326" role="img" aria-label="KRONVEX Three-Pillar System Architecture Blueprint">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -1133,7 +1133,7 @@ def render_org_telemetry(stats: dict, theme_name: str) -> str:
     )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="NOVALIS Organization Engineering Telemetry Console">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-label="KRONVEX Organization Engineering Telemetry Console">
   <style>
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }}
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
@@ -1159,7 +1159,7 @@ def render_org_telemetry(stats: dict, theme_name: str) -> str:
   <circle cx="34" cy="27" r="3.5" fill="{status_color}">
     <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text x="46" y="31" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">NOVALIS // ORGANIZATION ENGINEERING TELEMETRY</text>
+  <text x="46" y="31" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">KRONVEX // ORGANIZATION ENGINEERING TELEMETRY</text>
   <rect x="444" y="16" width="144" height="20" rx="5" fill="{status_bg}" stroke="{status_color}" stroke-width="0.7" stroke-opacity="0.5"/>
   <text x="516" y="29.5" text-anchor="middle" fill="{status_color}" font-size="9.2" font-weight="800" class="mono">{escape(status_label)}</text>
   <text x="932" y="31" text-anchor="end" fill="{t['text_muted']}" font-size="9.5" class="mono">SYNC: {updated}</text>
@@ -1257,7 +1257,7 @@ def render_intelligence_radar(stats: dict, macro: dict, theme_name: str) -> str:
   {spark}"""
         )
 
-    # Card 5 (x=764): NOVALIS Org Pulse
+    # Card 5 (x=764): KRONVEX Org Pulse
     nx = 764
     is_genesis = bool(stats.get("genesis", True))
     if is_genesis:
@@ -1280,7 +1280,7 @@ def render_intelligence_radar(stats: dict, macro: dict, theme_name: str) -> str:
     )
     cards.append(
         f"""  <rect x="{nx}" y="46" width="168" height="142" rx="10" fill="{t['bg_panel']}" stroke="{t['border']}" stroke-width="1"/>
-  <text x="{nx + 14}" y="66" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">NOVALIS</text>
+  <text x="{nx + 14}" y="66" fill="{t['text_primary']}" font-size="11.5" font-weight="800" class="mono">KRONVEX</text>
   <text x="{nx + 154}" y="66" text-anchor="end" fill="{t['text_muted']}" font-size="8.8" font-weight="600" class="mono">ORG PULSE</text>
   <line x1="{nx + 14}" y1="74" x2="{nx + 154}" y2="74" stroke="{t['border']}" stroke-width="0.9"/>
   <text x="{nx + 14}" y="99" fill="{t['text_primary']}" font-size="16" font-weight="800" class="mono">{escape(pulse_val)}</text>
@@ -1289,7 +1289,7 @@ def render_intelligence_radar(stats: dict, macro: dict, theme_name: str) -> str:
     )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 206" width="960" height="206" role="img" aria-label="NOVALIS Global Market and AI Signal Radar">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 206" width="960" height="206" role="img" aria-label="KRONVEX Global Market and AI Signal Radar">
   <style>
     .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }}
   </style>
@@ -1383,19 +1383,19 @@ def render_repos_markdown(stats: dict) -> str:
   </thead>
   <tbody>
     <tr>
-      <td><b><code>novalis-cross-core</code></b></td>
+      <td><b><code>kronvex-cross-core</code></b></td>
       <td>Cross-Platform Apps</td>
       <td>Shared UI architecture, design tokens &amp; multi-platform client foundations for web, mobile, and desktop</td>
       <td align="center"><img src="https://img.shields.io/badge/Architecture-0EA5E9?style=flat-square" alt="Architecture"/></td>
     </tr>
     <tr>
-      <td><b><code>novalis-market-intel</code></b></td>
+      <td><b><code>kronvex-market-intel</code></b></td>
       <td>Market Intelligence</td>
       <td>Real-time market data ingestion, quantitative signal extraction &amp; macro analytics infrastructure</td>
       <td align="center"><img src="https://img.shields.io/badge/R%26D%20Pipeline-10B981?style=flat-square" alt="R&D Pipeline"/></td>
     </tr>
     <tr>
-      <td><b><code>novalis-ai-runtime</code></b></td>
+      <td><b><code>kronvex-ai-runtime</code></b></td>
       <td>Mission-Critical AI</td>
       <td>High-reliability neural inference, deterministic agent orchestration &amp; automated evaluation harnesses</td>
       <td align="center"><img src="https://img.shields.io/badge/Incubating-6366F1?style=flat-square" alt="Incubating"/></td>
@@ -1407,7 +1407,7 @@ def render_repos_markdown(stats: dict) -> str:
     for repo in repos[:6]:
         name = escape(repo["name"])
         url = escape(repo["url"])
-        desc = escape(truncate_text(repo["description"] or "Core NOVALIS engineering module.", 96))
+        desc = escape(truncate_text(repo["description"] or "Core KRONVEX engineering module.", 96))
         lang = escape(repo["language"])
         stars = int(repo["stars"])
         forks = int(repo["forks"])
@@ -1490,7 +1490,7 @@ def write_svg(path: str, svg_text: str, is_live: bool, force: bool) -> None:
 # ---------------------------------------------------------------------------
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="NOVALIS Organization SVG & Telemetry Engine")
+    parser = argparse.ArgumentParser(description="KRONVEX Organization SVG & Telemetry Engine")
     parser.add_argument("--org", default=os.environ.get("ORG_NAME") or DEFAULT_ORG, help="GitHub organization login")
     parser.add_argument("--assets-dir", default="assets", help="Output directory for generated SVGs")
     parser.add_argument("--readme", default=os.path.join("profile", "README.md"), help="Path to org profile README.md")

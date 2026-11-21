@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security Vulnerability Disclosure
-    url: https://github.com/N-O-V-A-L-I-S/.github/blob/main/SECURITY.md
+    url: https://github.com/KRONVEX/.github/blob/main/SECURITY.md
     about: Please report security vulnerabilities privately rather than opening a public issue.
-  - name: NOVALIS Organization Overview
-    url: https://github.com/N-O-V-A-L-I-S
+  - name: KRONVEX Organization Overview
+    url: https://github.com/KRONVEX
     about: Explore repositories, architecture, and contact channels.
