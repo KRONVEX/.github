@@ -88,30 +88,18 @@
 <table>
   <thead>
     <tr>
-      <th align="left">Initiative</th>
-      <th align="left">Pillar</th>
-      <th align="left">Scope</th>
-      <th align="center">Status</th>
+      <th align="left">Repository</th>
+      <th align="left">Description</th>
+      <th align="center">Stack</th>
+      <th align="center">Activity</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b><code>kronvex-cross-core</code></b></td>
-      <td>Cross-Platform Apps</td>
-      <td>Shared UI architecture, design tokens &amp; multi-platform client foundations for web, mobile, and desktop</td>
-      <td align="center"><img src="https://img.shields.io/badge/Architecture-0EA5E9?style=flat-square" alt="Architecture"/></td>
-    </tr>
-    <tr>
-      <td><b><code>kronvex-market-intel</code></b></td>
-      <td>Market Intelligence</td>
-      <td>Real-time market data ingestion, quantitative signal extraction &amp; macro analytics infrastructure</td>
-      <td align="center"><img src="https://img.shields.io/badge/R%26D%20Pipeline-10B981?style=flat-square" alt="R&D Pipeline"/></td>
-    </tr>
-    <tr>
-      <td><b><code>kronvex-ai-runtime</code></b></td>
-      <td>Mission-Critical AI</td>
-      <td>High-reliability neural inference, deterministic agent orchestration &amp; automated evaluation harnesses</td>
-      <td align="center"><img src="https://img.shields.io/badge/Incubating-6366F1?style=flat-square" alt="Incubating"/></td>
+      <td><a href="https://github.com/KRONVEX/KRONVEX.github.io"><b><code>KRONVEX.github.io</code></b></a></td>
+      <td>Official KRONVEX web platform (kronvex.github.io) — Cross-Platform Apps Storefront, Local In-Br…</td>
+      <td align="center"><code>TypeScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
     </tr>
   </tbody>
 </table>
