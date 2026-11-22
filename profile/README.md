@@ -17,8 +17,8 @@
   <a href="https://khalidnaami.com" target="_blank">
     <img src="https://img.shields.io/badge/Research%20%26%20Web-khalidnaami.com-0369A1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
-  <a href="mailto:khalidnaami66@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-Get%20in%20Touch-059669?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
+  <a href="mailto:kronvex1@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-kronvex1%40gmail.com-059669?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact KRONVEX" />
   </a>
 </p>
 
@@ -176,7 +176,8 @@ We welcome serious engineers, researchers, and strategic partners interested in 
 - **Contributing Guidelines:** [CONTRIBUTING.md](https://github.com/KRONVEX/.github/blob/main/CONTRIBUTING.md)
 - **Security Disclosure:** [SECURITY.md](https://github.com/KRONVEX/.github/blob/main/SECURITY.md)
 - **Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/KRONVEX/.github/blob/main/CODE_OF_CONDUCT.md)
-- **Founder & Lead Architect:** [@khalid-naami](https://github.com/khalid-naami) · [khalidnaami.com](https://khalidnaami.com) · [khalidnaami66@gmail.com](mailto:khalidnaami66@gmail.com)
+- **Official Organization Contact:** [kronvex1@gmail.com](mailto:kronvex1@gmail.com)
+- **Founder & Lead Architect:** [@khalid-naami](https://github.com/khalid-naami) · [khalidnaami.com](https://khalidnaami.com) · [research@khalidnaami.com](mailto:research@khalidnaami.com)
 
 ---
 

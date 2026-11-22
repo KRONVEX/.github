@@ -142,6 +142,5 @@ python .github/scripts/kronvex_engine.py --offline --force
 
 Maintained by **[@khalid-naami](https://github.com/khalid-naami)** — Founder & Lead Architect of **[KRONVEX](https://github.com/KRONVEX)**.
 
-* **Organization:** [github.com/KRONVEX](https://github.com/KRONVEX)
-* **Web & Research:** [khalidnaami.com](https://khalidnaami.com)
-* **Direct Contact:** [khalidnaami66@gmail.com](mailto:khalidnaami66@gmail.com)
+* **Organization:** [github.com/KRONVEX](https://github.com/KRONVEX) · [kronvex1@gmail.com](mailto:kronvex1@gmail.com)
+* **Web & Research:** [khalidnaami.com](https://khalidnaami.com) · [research@khalidnaami.com](mailto:research@khalidnaami.com)

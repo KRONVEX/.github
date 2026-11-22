@@ -19,4 +19,4 @@ As maintainers and contributors of **KRONVEX**, we are committed to maintaining 
 
 ## Enforcement
 
-Instances of abusive or unacceptable behavior may be reported privately to **khalidnaami66@gmail.com**. All reports will be reviewed promptly and fairly. Maintainers reserve the right to remove content or restrict participation when necessary to protect the community.
+Instances of abusive or unacceptable behavior may be reported privately to **kronvex1@gmail.com**. All reports will be reviewed promptly and fairly. Maintainers reserve the right to remove content or restrict participation when necessary to protect the community.

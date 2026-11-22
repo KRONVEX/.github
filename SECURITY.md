@@ -18,7 +18,7 @@ Security patches are actively maintained for the latest release and `main` branc
 Instead, please report them responsibly via one of the following private channels:
 
 1. **GitHub Private Vulnerability Reporting:** Use the **"Report a vulnerability"** button in the **Security** tab of the affected repository.
-2. **Direct Security Contact:** Email **khalidnaami66@gmail.com** with the subject line `[SECURITY] <Repository Name> - <Brief Summary>`.
+2. **Direct Security Contact:** Email **kronvex1@gmail.com** with the subject line `[SECURITY] <Repository Name> - <Brief Summary>`.
 
 ### What to Include
 
