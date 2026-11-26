@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/KRONVEX">
+  <a href="https://kronvex.org">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/hero_command_dark.svg">
       <img alt="KRONVEX Command Banner" src="https://raw.githubusercontent.com/KRONVEX/.github/main/assets/hero_command_light.svg" width="100%">
@@ -8,6 +8,9 @@
 </p>
 
 <p align="center">
+  <a href="https://kronvex.org" target="_blank">
+    <img src="https://img.shields.io/badge/Official%20Platform-kronvex.org-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="KRONVEX Platform" />
+  </a>
   <a href="https://github.com/KRONVEX">
     <img src="https://img.shields.io/badge/Organization-KRONVEX-090D16?style=for-the-badge&logo=github&logoColor=38BDF8" alt="KRONVEX Organization" />
   </a>
