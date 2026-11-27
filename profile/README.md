@@ -100,8 +100,26 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/KRONVEX/KRONVEX.github.io"><b><code>KRONVEX.github.io</code></b></a></td>
-      <td>Official KRONVEX web platform (kronvex.github.io) — Cross-Platform Apps Storefront, Local In-Br…</td>
+      <td>Official KRONVEX web platform (kronvex.org) — Cross-Platform Apps, Local WebGPU AI &amp; Frontier Research.</td>
       <td align="center"><code>TypeScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/KRONVEX/kronvex-cli"><b><code>kronvex-cli</code></b></a></td>
+      <td>Official KRONVEX Terminal CLI (kronvex / kvx) — 33-capability zero-dep agent-native CLI, MCP client &amp; auditors.</td>
+      <td align="center"><code>JavaScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/KRONVEX/kronvex-mcp"><b><code>kronvex-mcp</code></b></a></td>
+      <td>Official KRONVEX Code-Mode MCP Server — 98.4% token reduction (~650 tokens), 4-layer security &amp; zero deps.</td>
+      <td align="center"><code>JavaScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/KRONVEX/kronvex-api"><b><code>kronvex-api</code></b></a></td>
+      <td>Official KRONVEX Unified Edge REST API v1, OpenAPI 3.1.0 Contract, Postman v2.1 &amp; api-anything Tier-1 Spec.</td>
+      <td align="center"><code>JavaScript</code></td>
       <td align="center">★ 0 · ⑂ 0</td>
     </tr>
   </tbody>
