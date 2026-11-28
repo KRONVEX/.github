@@ -122,6 +122,12 @@
       <td align="center"><code>JavaScript</code></td>
       <td align="center">★ 0 · ⑂ 0</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/KRONVEX/kronvex-template-saas"><b><code>kronvex-template-saas</code></b></a></td>
+      <td>KRONVEX Enterprise AI-Native SaaS Core — Next.js 16, Better Auth, Drizzle PG, Multi-Billing, MCP &amp; 6-Lang RTL.</td>
+      <td align="center"><code>TypeScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
+    </tr>
   </tbody>
 </table>
 <!-- ORG-REPOS:END -->
