@@ -99,6 +99,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/KRONVEX/KRONVEX.github.io"><b><code>KRONVEX.github.io</code></b></a></td>
+      <td>Official KRONVEX web platform (kronvex.github.io) — Cross-Platform Apps Storefront, Local In-Br…</td>
+      <td align="center"><code>TypeScript</code></td>
+      <td align="center">★ 0 · ⑂ 0</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/KRONVEX/kronvex-api"><b><code>kronvex-api</code></b></a></td>
       <td>Official KRONVEX Unified Edge REST API v1, OpenAPI 3.1.0 Contract, Postman v2.1 Collection and…</td>
       <td align="center"><code>JavaScript</code></td>
@@ -114,12 +120,6 @@
       <td><a href="https://github.com/KRONVEX/kronvex-cli"><b><code>kronvex-cli</code></b></a></td>
       <td>Official KRONVEX Terminal CLI (kronvex / kvx) - 33-capability zero-dep agent-native CLI, live M…</td>
       <td align="center"><code>JavaScript</code></td>
-      <td align="center">★ 0 · ⑂ 0</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/KRONVEX/KRONVEX.github.io"><b><code>KRONVEX.github.io</code></b></a></td>
-      <td>Official KRONVEX web platform (kronvex.github.io) — Cross-Platform Apps Storefront, Local In-Br…</td>
-      <td align="center"><code>TypeScript</code></td>
       <td align="center">★ 0 · ⑂ 0</td>
     </tr>
   </tbody>
