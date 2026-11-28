@@ -28,13 +28,13 @@
   <text x="46" y="31" fill="#0F172A" font-size="11.5" font-weight="800" class="mono">KRONVEX // ORGANIZATION ENGINEERING TELEMETRY</text>
   <rect x="444" y="16" width="144" height="20" rx="5" fill="#D1FAE5" stroke="#059669" stroke-width="0.7" stroke-opacity="0.5"/>
   <text x="516" y="29.5" text-anchor="middle" fill="#059669" font-size="9.2" font-weight="800" class="mono">LIVE · REST</text>
-  <text x="932" y="31" text-anchor="end" fill="#64748B" font-size="9.5" class="mono">SYNC: 2026-11-28 13:13 UTC</text>
+  <text x="932" y="31" text-anchor="end" fill="#64748B" font-size="9.5" class="mono">SYNC: 2026-11-28 14:50 UTC</text>
 
   <!-- 4 Executive KPI Cards -->
   <rect x="28" y="54" width="214" height="68" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
   <rect x="40" y="66" width="3" height="44" rx="1.5" fill="#0284C7"/>
   <text x="52" y="76" fill="#64748B" font-size="9.5" font-weight="700" class="mono">PUBLIC REPOS</text>
-  <text x="52" y="100" fill="#0F172A" font-size="20" font-weight="800" class="mono">5</text>
+  <text x="52" y="100" fill="#0F172A" font-size="20" font-weight="800" class="mono">4</text>
   <text x="52" y="114" fill="#475569" font-size="9.5" class="sans">Active Org Repositories</text>
   <rect x="258" y="54" width="214" height="68" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
   <rect x="270" y="66" width="3" height="44" rx="1.5" fill="#D97706"/>
@@ -44,7 +44,7 @@
   <rect x="488" y="54" width="214" height="68" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
   <rect x="500" y="66" width="3" height="44" rx="1.5" fill="#059669"/>
   <text x="512" y="76" fill="#64748B" font-size="9.5" font-weight="700" class="mono">COMMIT PULSE</text>
-  <text x="512" y="100" fill="#0F172A" font-size="20" font-weight="800" class="mono">6</text>
+  <text x="512" y="100" fill="#0F172A" font-size="20" font-weight="800" class="mono">5</text>
   <text x="512" y="114" fill="#475569" font-size="9.5" class="sans">Tracked Org Commits</text>
   <rect x="718" y="54" width="214" height="68" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
   <rect x="730" y="66" width="3" height="44" rx="1.5" fill="#4F46E5"/>
@@ -98,9 +98,9 @@
   <circle cx="717" cy="188" r="3.2" fill="#F1E05A"/>  <text x="725" y="191" fill="#475569" font-size="9.3" font-weight="600" class="mono">JavaScri… 10%</text>
   <line x1="608" y1="215" x2="916" y2="215" stroke="#CBD5E1" stroke-width="1"/>
   <text x="608" y="229" fill="#64748B" font-size="9" font-weight="700" class="mono">ACTIVE PUBLIC REPOSITORIES</text>
-  <circle cx="613" cy="241" r="3" fill="#3178C6"/>  <text x="623" y="244" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">kronvex-template-saas</text>  <text x="916" y="244" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · TypeScript</text>
-  <circle cx="613" cy="258" r="3" fill="#3178C6"/>  <text x="623" y="261" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">KRONVEX.github.io</text>  <text x="916" y="261" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · TypeScript</text>
-  <circle cx="613" cy="275" r="3" fill="#F1E05A"/>  <text x="623" y="278" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">kronvex-api</text>  <text x="916" y="278" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · JavaScript</text>
+  <circle cx="613" cy="241" r="3" fill="#3178C6"/>  <text x="623" y="244" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">KRONVEX.github.io</text>  <text x="916" y="244" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · TypeScript</text>
+  <circle cx="613" cy="258" r="3" fill="#F1E05A"/>  <text x="623" y="261" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">kronvex-api</text>  <text x="916" y="261" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · JavaScript</text>
+  <circle cx="613" cy="275" r="3" fill="#F1E05A"/>  <text x="623" y="278" fill="#0F172A" font-size="9.8" font-weight="700" class="mono">kronvex-mcp</text>  <text x="916" y="278" text-anchor="end" fill="#475569" font-size="9" font-weight="600" class="mono">★ 0 · JavaScript</text>
 
   <!-- Bottom Ticker Strip -->
   <rect x="28" y="308" width="904" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>

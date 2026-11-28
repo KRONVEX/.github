@@ -99,12 +99,6 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/KRONVEX/kronvex-template-saas"><b><code>kronvex-template-saas</code></b></a></td>
-      <td>KRONVEX Enterprise AI-Native SaaS Core - Next.js 16, Drizzle PostgreSQL + RLS, Better Auth (Org…</td>
-      <td align="center"><code>TypeScript</code></td>
-      <td align="center">★ 0 · ⑂ 0</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/KRONVEX/KRONVEX.github.io"><b><code>KRONVEX.github.io</code></b></a></td>
       <td>Official KRONVEX web platform (kronvex.github.io) — Cross-Platform Apps Storefront, Local In-Br…</td>
       <td align="center"><code>TypeScript</code></td>
